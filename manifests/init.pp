@@ -2,8 +2,8 @@
 #
 # include github_for_mac
 class github_for_mac {
-  package { 'GitHubForMac':
-    source   => 'https://github-central.s3.amazonaws.com/mac/GitHub%20for%20Mac%20171.zip',
+  package { 'GitHub':
+    source   => 'https://central.github.com/mac/latest',
     provider => 'compressed_app'
   }
 }
