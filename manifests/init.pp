@@ -4,6 +4,7 @@
 class github {
   package { 'GitHub':
     source   => 'https://central.github.com/mac/latest',
-    provider => 'compressed_app'
+    provider => 'compressed_app',
+    flavor   => 'zip'
   }
 }
